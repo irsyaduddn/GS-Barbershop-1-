@@ -1,0 +1,64 @@
+USER MANUAL
+GS BARBERSHOP SERVICE MANAGEMENT SYSTEM
+
+1. USER ACCOUNTS
+
+Customer (User):
+email: irsyaduddn@gmail.com
+Password: Irsyad03
+
+Barber:
+Username: ishak@gmail.com
+Password: 123
+
+Admin:
+Username: admin@gsbarbershop.com
+Password: 123
+
+2. Login Module
+-Enter your email and password according to your role (Customer, Barber, Admin).
+-Click "Log In" to access the system.
+-You will be redirected to your respective dashboard.
+
+3. Account Registration Module (Customer Only)
+(For new users)
+
+-Click "Sign Up Now" on the login page.
+-Fill in Full Name, Email, Password, Confirm Password, Phone Number, and Age.
+-Click "Register" to create an account.
+
+4. Manage Services Module (Admin)
+-Admin can add new grooming services with name, price, and duration.
+-Admin can edit or delete existing services.
+-Admin can also manage add-on services and link them to main services.
+
+5. Appointment Booking & Management Module (Customer & Barber)
+Customer:
+-Select desired service, barber, and available time slot.
+-Choose add-on services and confirm appointment.
+-View upcoming appointments and cancel if needed.
+
+Barber:
+-View list of assigned appointments.
+-Update appointment status (e.g., Completed).
+-View daily schedule and update availability.
+
+6. Barber Availability Management Module (Barber)
+-Barbers can block off unavailable dates using the "Take Day Off" feature.
+-Manage and delete upcoming available time slots.
+-View status of each time slot (Booked or Available).
+
+7. Payment Module
+Customer:
+-After selecting service, proceed to checkout and confirm details.
+-Redirected to Stripe Checkout for secure payment.
+-Receive confirmation email after successful payment.
+
+Admin:
+-Track all payment records including status (Paid, Refunded).
+-Monitor transactions tied to each appointment.
+
+8. Report Generation Module (Admin)
+-Admin can generate reports for a selected date range.
+-Reports include total appointments, completed/cancelled status, and revenue.
+-Use “Export to PDF” to download the report for record keeping or analysis.
